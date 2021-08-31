@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Responsive Email Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+        @media screen and (max-width: 599.98px) {
+
+            .two-columns .column img {
+                padding-bottom: 30px!important;
+            }
+
+            img.third-img-last {
+                width: 200px!important;
+                max-width: 200px!important;
+                
+            }
+
+            .d-600-none {
+                display: none!important;
+            }
+        }
+
+        @media screen and (max-width: 399.98px) {
+
+            .two-columns .column img {
+                width: 100%!important;
+                max-width: 600px!important;
+                
+            }
+
+            .testimonial-section {
+                padding: 15px 25px!important;
+            }
+
+            .testimonial-section p {
+                font-size: 18px!important;
+            }
+
+            .third-img .column {
+                text-align: center!important;
+            }
+
+            .third-img-last {
+                position: relative;
+                right: 0px;
+            }
+
+            .px-sm-0 {
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+			.pt-400-0 {
+				padding-top: 0!important;
+			}
+			img.third-img {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			.pr-large {
+				padding-right: 25px!important;
+			}
+        }
+
+    </style>
+</head>
+<body style="Margin:0; padding:0; min-width:100%; width: 100%; background-color: #ebedee;">
+    <center style="padding-bottom: 40px;">
+        <div align="center" width="100%" style="background-color: #4980d2; max-width: 600px; height: 10px; align-self: center; box-shadow: 0 0 10px rgba(0, 0, 0, .2)"></div>
+        <table align="center" width="100%" style="border-spacing: 0; color: #3D3D3D; font-family: 'Lato',sans-serif, Arial, Helvitica; background-color: #ffffff; Margin:0; padding: 0; width: 100%; max-width: 600px; box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+            <!-- HEADER SECTION -->
+            <tr>
+                <td style="padding-top:5px;padding-right:0;padding-bottom:15px;padding-left:0;">
+                    <table width="100%" style="border-spacing:0;" role="presentation">
+                        <tr>
+                            <td class="three-columns" style="padding-right:0;padding-left:0;font-size:0;text-align: center;">
+                                <table class="column" style="border-spacing:0;width:100%;max-width:250px;display:inline-block;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-600-0" style="padding-top:10px;padding-bottom:0;padding-right:0px;padding-left:40px;">
+                                            <img width="155" src="./img/w3newbie.png" alt="w3newbie logo">
+                                        </td>
+                                    </tr>
+                                </table>
+                            
+                                <table class="d-600-none" style="border-spacing:0;width:100%;max-width:100px;display:inline-block;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-600-0" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                            <table class="content" style="border-spacing:0;" role="presentation">
+                                                <tr>
+                                                    <td style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:0;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table  class="column" style="border-spacing:0;width:100%;max-width:250px;display:inline-block;vertical-align:top;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-600-0 pt-500-0" style="padding-top:13px;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <table class="content" style="border-spacing:0;font-size:14px;text-align:center;" role="presentation">
+                                                <tr>
+                                                    <td class="padding content" style="padding-top:10px;padding-bottom:0;padding-right:0;padding-left:0;width:100%;text-align:center; width:250px;">
+                                                        <a href="https://www.example.com"><img width="30" src="./img/icons/square/dark-facebook.png" alt="Facebook logo" style="display:inline-block;border-width:0;max-width: 30px;"></a>
+                                                        <a href="https://www.example.com"><img width="30" src="./img/icons/square/dark-twitter.png" alt="Twitter logo" style="display:inline-block;border-width:0;max-width: 30px;"></a>
+                                                        <a href="https://www.example.com"><img width="30" src="./img/icons/square/dark-youtube.png" alt="Youtube logo" style="display:inline-block;border-width:0;max-width: 30px;"></a>
+                                                        <a href="https://www.example.com"><img width="30" src="./img/icons/square/dark-linkedin.png" alt="Linkedin logo" style="display:inline-block;border-width:0;max-width: 30px;"></a>
+                                                        <a href="https://www.example.com"><img width="30" src="./img/icons/square/dark-instagram.png" alt="Instagram logo" style="display:inline-block;border-width:0;max-width: 30px;"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- GIF SECTION -->
+            <tr>
+                <td valign="middle" align="center" background="./img/snow.gif" width="100%" height="374" style="padding-bottom:10px;vertical-align:middle; font-size: 22px; line-height: 26px; color: #ffffff;">
+                    <p style="font-size: 23px; line-height: 32px; font-weight:bold; color: #ffffff; text-shadow: 2px 2px 2px #3d3d3d;">HTML Email GIF Background</p>
+                    <p style="max-width: 150px;height: 5px; background-color: #4980D2; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; line-height: 40px;"></p>
+                    <p style="font-size: 19px; color: #ffffff; line-height: 22px; text-shadow: 1px 1px 2px #3d3d3d;">Responsive HTML Email Design</p>
+                </td>
+            </tr>
+            <!-- DESCRIPTION SECTION -->
+            <tr>
+                <td align="center" style="padding: 30px 15px 50px 15px; font-size: 20px;">
+                    <p style="font-size: 19px; font-weight: 600;">Email Template 
+                        <strong style="color: #4980d2">Development</strong>
+                    </p>
+                    <p style="font-size: 14px; line-height: 22px; padding: 10px 18px 20px;">Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around. Responsive HTML Email Templates that you can build around.</p>
+                    <a href="#" style="font-size: 16px; text-decoration: none; background-color: #4980d2; color: #ffffff;
+                    padding: 11px 15px; border-radius: 4px; font-weight: 600; display: inline-block;">Visit Online</a>
+                </td>
+            </tr>
+            <!-- BLUE LINE 1 -->
+            <tr>
+                <td style="background-color: #4980d2; height: 1px;">
+                </td>
+            </tr>
+            <!-- LATEST PHONE SECTION -->
+            <tr>
+                <td style="padding-top: 30px; padding-right: 0; padding-bottom: 35px; padding-left: 0;">
+                    <table width="100%" style="border-spacing:0;" role="presentation">
+                        <tr>
+                            <td class="two-columns" style="padding-left: 0; padding-right: 0; padding-top: 25px; font-size: 0; text-align: center;">
+                                <table class="column" style="width: 100%; max-width: 300px; display: inline-block; vertical-align: top; border-spacing: 0;" role="presentation">
+                                    <tr>
+                                        <td class="padding" style="padding: 0 10px;">
+                                            <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                                <tr>
+                                                    <td>
+                                                        <img src="./img/560x420.jpg" alt="Latest phone" width="100%" style="max-width: 300px;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column" style="width: 100%; max-width: 300px; display: inline-block; vertical-align: top; border-spacing: 0;" role="presentation">
+                                    <tr>
+                                        <td class="padding" style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+                                            <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
+                                                <tr>
+                                                    <td align="left" valign="middle" style="padding-top: 15px; padding-right: 0; padding-bottom: 10px; padding-left: 10px;">
+                                                        <p style="Margin: 0; font-size: 16px; font-weight: 600;">The Latest Phone</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" valign="middle" style="padding-top: 5px; padding-right: 5px; padding-bottom: 10px; padding-left: 10px;">
+                                                        <p style="Margin: 0; font-size: 15px; line-height: 19px;">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="padding-top: 20px;">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0;text-align:center;">
+                                                            <tr>
+
+                                                                <td align="left" style="border-radius: 4px;" bgcolor="#277fd2">
+                                                                    <a href="https://example.com" target="_blank" style="font-size: 15px; font-weight: bold; text-decoration: none; color: #ffffff; background-color: #4880d2; border:1px solid #4880d2; border-radius:4px; padding:10px 14px; display: inline-block;">Read more
+                                                                    </a>
+                                                                </td>
+
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- TESTIMONIAL SECTION -->
+            <tr>
+                <td class="testimonial-section" align="center" style="background-color: #4880d2; color: #ffffff; padding: 15px 10px;">
+                    <p style="font-size: 16px; font-weight: bold; line-height: 22px;">"The w3newbie framework helped me learn how to create my own custom responsive HTML email templates."</p>
+                    <p style="font-size: 16px;">-Jessica Green</p>
+                </td>
+            </tr>
+            <!-- ITEMS SECTION -->
+            <tr>
+                <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                    <table width="100%" style="border-spacing:0;" role="presentation">
+                        <tr>
+                            <td class="three-columns" style="padding-right:0;padding-left:0;text-align:center;font-size:0;padding-top:30px;padding-bottom:20px;">
+                                <table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-sm-0" style="padding-top:20px;padding-bottom:20px;padding-right:10px;padding-left:10px;">
+                                            <table class="content" style="border-spacing:0;width:100%;font-size:15px;text-align:center;" role="presentation">
+                                                <tr>
+                                                    <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                                        <a href="https://www.example.com"><img class="third-img" src="https://i.ibb.co/M56gsgd/380x280.png" width="150" alt="watch" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;">
+                                                        <p style="font-size:17px;font-weight:bold;">APPLE WATCH</p>
+                                                        <p style="font-size:15px;">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                        <a href="https://www.example.com" target="_blank" style="font-size: 15px;color: #388CDA; text-decoration: none; display: inline-block;">Learn more..</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-sm-0" style="padding-top:20px;padding-bottom:20px;padding-right:10px;padding-left:10px;">
+                                            <table class="content" style="border-spacing:0;width:100%;font-size:15px;text-align:center;" role="presentation">
+                                                <tr>
+                                                    <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                                        <a href="https://www.example.com"><img class="third-img" src="https://i.ibb.co/p15Gw9H/380x280-2.png" width="150" alt="head phones" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;">
+                                                        <p style="font-size:17px;font-weight:bold;">EAR PODS</p>
+                                                        <p style="font-size:15px;">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                        <a href="https://www.example.com" target="_blank" style="font-size: 15px;color: #388CDA; text-decoration: none; display: inline-block;">Learn more..</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column" style="border-spacing:0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
+                                    <tr>
+                                        <td class="padding px-600-0" style="padding-top:20px;padding-bottom:20px;padding-right:10px;padding-left:10px;">
+                                            <table class="content" style="border-spacing:0;width:100%;font-size:15px;text-align:center;" role="presentation">
+                                                <tr>
+                                                    <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                                        <a href="https://www.example.com"><img class="third-img-last" src="https://i.ibb.co/Hpn49Y1/380x280-3.png" width="150" alt="watch band" style="border-width:0;width:100%;max-width:150px;height:auto;"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;">
+                                                        <p style="font-size:17px;font-weight:bold;">WATCH BANDS</p>
+                                                        <p style="font-size:15px;">Responsive HTML Email Templates that you can build around to master email development.</p>
+                                                        <a href="https://www.example.com" target="_blank" style="font-size: 15px;color: #388CDA; text-decoration: none; display: inline-block;">Learn more..</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- BLUE LINE 2 -->
+            <tr>
+                <td style="background-color: #4980d2; height: 1px;">
+                </td>
+            </tr>
+            <!-- LOGOS SECTION -->
+            <tr>
+                <td align="center" style="padding: 15px 0">
+                    <a href="#"><img alt width="35" style="max-width: 35px;" src="./img/icons/color/circle-facebook.png" alt="Facebook logo"></a>
+                    <a href="#"><img alt width="35" style="max-width: 35px;" src="./img/icons/color/circle-twitter.png" alt="Twitter logo"></a>
+                    <a href="#"><img alt width="35" style="max-width: 35px;" src="./img/icons/color/circle-youtube.png" alt="Youtube logo"></a>
+                    <a href="#"><img alt width="35" style="max-width: 35px;" src="./img/icons/color/circle-linkedin.png" alt="Linkedin logo"></a>
+                    <a href="#"><img alt width="35" style="max-width: 35px;" src="./img/icons/color/circle-instagram.png" alt="Instagram logo"></a>
+                </td>
+            </tr>
+            <!-- BLUE LINE 3 -->
+            <tr>
+                <td style="background-color: #4980d2; height: 1px;">
+                </td>
+            </tr>
+            <!-- FOOTER -->
+            <tr>
+                <td align="center" style="color: #909191; padding: 10px 0;">
+                    <p style="font-size: 14px; padding-bottom: 13px;">View as a Web Page</p>
+                    <p style="font-size: 15px; padding-bottom: 3px;">w3newbie.com</p>
+                    <p style="font-size: 14px; padding-bottom: 3px;">100 Street Name, City, ST, 88888</p>
+                    <p style="font-size: 14px; padding-bottom: 3px;">email@example.com</p>
+                    <p style="font-size: 15px; padding-bottom: 3px;">1-800-888-8888</p>
+                    <p style="font-size: 14px; padding-bottom: 7px; padding-top: 12px;">unsubscribe</p>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
